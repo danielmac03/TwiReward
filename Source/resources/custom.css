@@ -1,0 +1,83 @@
+body{
+    background-color: #1F1F23;
+}
+
+p, h1, h2, h3, h4, label, li, .close, .close:hover{
+    color: #E6E6E6;
+}
+
+hr{
+    color: #1F1F23;
+    border-width: 2px;
+}
+
+.navbar{
+    background-color: #18181B;
+}
+
+.fa-trash-alt{
+    color: #18181B;
+    font-size: 18px;
+}
+
+.errors{
+    color: red;
+    font-weight: bold;
+}
+
+.card, .modal-content{
+    background-color: #303136;
+    border: 0;
+}
+
+.modal-header{
+    border-bottom: 1px solid #1F1F23;
+}
+
+.modal-lg{
+    max-width: 600px;
+}
+
+.footer{
+    background-color: #18181B;
+    position: fixed;
+    height: 4%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer a, label{
+    vertical-align: sub;
+}
+
+.btn, .btn:hover, .btn:active{
+    background-color: #772CE8;
+    color: white;
+    border: 0;
+}
+
+.btn:hover, .btn:active{
+    background-color: #5C16C5;
+}
+
+.login_twitch{
+    margin-top: 27vh;
+}
+
+.login_twitch a{
+    padding: 1.5em 5em;
+    border-radius: .25rem;
+    color: #E6E6E6;
+    background-color: #772CE8;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+.login_twitch:hover a{
+    color: #E6E6E6;
+    text-decoration: none;
+    background-color: #5C16C5;
+}
