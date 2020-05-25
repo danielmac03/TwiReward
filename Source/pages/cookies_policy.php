@@ -53,7 +53,7 @@
 
         </nav>
 
-        <div class="container mt-3">
+        <div class="container mt-3 cookies_policy">
             
             <h2>Cookies Policy</h2>
             <hr>
@@ -156,7 +156,7 @@
                 <label>This site uses cookies</label>
             </div>
 
-            <div class="float-right">
+            <div class="float-right d-none d-xl-block d-lg-block d-md-block">
                 <a href="/pages/cookies_policy.php">Cookies Policy</a>
                 <a class="mx-4" href="mailto:contact@twireward.com">Contact</a>
                 <a href="https://github.com/danielmac03/TwiReward">Github</a>

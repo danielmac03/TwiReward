@@ -110,10 +110,10 @@ if(isset($_GET['refresh_followsubs']) || !isset($_SESSION['app_token'])){
                 <a href="index.php"><h1 class="text-xs-center">TwiReward</h1></a>
             </div>
 
-            <div class="col-md-6 text-center text-md-right">
+            <div class="col-md-6 px-0 text-center text-md-right">
 
                 <?php if (isset($_SESSION['user'])) : ?>
-                    <img class="mr-1" width="6%" src="<?= $_SESSION['user']['profile_image_url'] ?>" alt="Profile image url <?= $_SESSION['user']['display_name'] ?>">
+                    <img class="mr-1 profile_picture" width="6%" src="<?= $_SESSION['user']['profile_image_url'] ?>" alt="Profile image url <?= $_SESSION['user']['display_name'] ?>">
                     <span class="mr-2 text-white"><?= $_SESSION['user']['display_name'] ?></span>
                     <a class="btn" href="" data-toggle="modal" data-target="#create_reward"><i class="fas fa-plus"></i></a>
 
@@ -162,7 +162,7 @@ if(isset($_GET['refresh_followsubs']) || !isset($_SESSION['app_token'])){
 
                         <div class="mb-3">
                             <h2 class="d-inline">Rewards:</h2>
-                            <a class="btn float-md-right" href="index.php?refresh_followsubs" data-toggle="tooltip" title="If you click, we will update the information of subscribers, follows and subscriptions">Refresh Follows and Subs</a>
+                            <a class="btn float-right" href="index.php?refresh_followsubs" data-toggle="tooltip" title="If you click, we will update the information of subscribers, follows and subscriptions">Refresh</a>
                             <hr>
                         </div>
 
@@ -214,7 +214,7 @@ if(isset($_GET['refresh_followsubs']) || !isset($_SESSION['app_token'])){
                     </div>
 
 
-                    <div id="subscribers" class="col-md-4 pl-0 d-none d-xs-block d-sm-block">
+                    <div id="subscribers" class="col-md-4 pl-0 d-none d-xs-block d-md-block">
 
                         <div class="ml-4">
                         
@@ -260,7 +260,7 @@ if(isset($_GET['refresh_followsubs']) || !isset($_SESSION['app_token'])){
                 <label>This site uses cookies</label>
             </div>
 
-            <div class="float-right">
+            <div class="float-right d-none d-xl-block d-lg-block d-md-block">
                 <a href="/pages/cookies_policy.php">Cookies Policy</a>
                 <a class="mx-4" href="mailto:contact@twireward.com">Contact</a>
                 <a href="https://github.com/danielmac03/TwiReward">Github</a>

@@ -15,6 +15,10 @@ hr{
     background-color: #18181B;
 }
 
+.profile_picture{
+    max-width: 40px;
+}
+
 .fa-trash-alt{
     color: #18181B;
     font-size: 18px;
@@ -41,13 +45,12 @@ hr{
 .footer{
     background-color: #18181B;
     position: fixed;
-    height: 4%;
-    left: 0;
     bottom: 0;
 }
 
-.footer a, label{
-    vertical-align: sub;
+.footer a, .footer label{
+    margin-bottom: 0;
+    vertical-align: text-top;
 }
 
 .btn, .btn:hover, .btn:active{
@@ -80,4 +83,8 @@ hr{
     color: #E6E6E6;
     text-decoration: none;
     background-color: #5C16C5;
+}
+
+.cookies_policy{
+    overflow-wrap: anywhere;
 }
